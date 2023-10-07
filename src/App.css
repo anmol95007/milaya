@@ -1,0 +1,11 @@
+/* @font-face {
+    font-family: 'Nexa-Light';
+    src: url('../src/Components/Fonts/Nexa\ Light.otf') format('woff2');
+  } */
+
+.body-bg-image-old {
+  width: 100%;
+  height: 100%;
+  background-color: #e6e7e8;
+  /* background-color: black; */
+}
