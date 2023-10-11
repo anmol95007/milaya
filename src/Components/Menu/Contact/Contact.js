@@ -171,7 +171,7 @@ const Contact = () => {
                     <div className="col-md-6 col-sm-6 col-xs-12">
                       <div className="single-input-field">
                         <input
-                          type="text"
+                          type="number"
                           placeholder="Phone Number"
                           name="phone"
                           onChange={formik.handleChange}
