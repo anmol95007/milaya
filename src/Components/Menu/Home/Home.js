@@ -14,6 +14,9 @@ import slider3 from "../../Assets/images/slider3.jpg";
 import slider4 from "../../Assets/images/slider4.jpg";
 import slider5 from "../../Assets/images/slider5.jpg";
 import craig_img from "../../Assets/images/craig_img.jpg";
+import Asset_management from "../../Assets/images/Asset_management.png";
+import Project_mangement from "../../Assets/images/Project_mangement.jpg";
+import Drilling_services from "../../Assets/images/Drilling_services.jpg";
 
 const Home = () => {
   const sliderRef = useRef(null); // Create a ref for the slider component
@@ -331,8 +334,7 @@ const Home = () => {
                 <div
                   className="pt-wrap"
                   style={{
-                    background:
-                      "url(https://joulon.com/wp-content/uploads/2019/03/ProjectManagement_thump.jpg) no-repeat center",
+                    background: `url(${Project_mangement}) no-repeat center`,
                     backgroundSize: "cover",
                     height: "250px",
                     borderRadius: "10px",
@@ -357,8 +359,7 @@ const Home = () => {
                 <div
                   className="pt-wrap"
                   style={{
-                    background:
-                      "url(https://joulon.com/wp-content/uploads/2019/03/2.jpg) no-repeat center",
+                    background: `url(${Asset_management}) no-repeat center`,
                     backgroundSize: "cover",
                     height: "250px",
                     borderRadius: "10px",
@@ -384,8 +385,7 @@ const Home = () => {
                 <div
                   className="pt-wrap"
                   style={{
-                    background:
-                      "url(https://joulon.com/wp-content/uploads/2019/03/3.jpg) no-repeat center",
+                    background: `url(${Drilling_services}) no-repeat center`,
                     backgroundSize: "cover",
                     height: "250px",
                     borderRadius: "10px",
@@ -468,17 +468,15 @@ const Home = () => {
         </div>
         <div class="home-craig-right">
           <div class="home-craig-right-cover">
-
             <div className="craig-heading">
-
               <h2>
                 Why Milaya <br className="craig-break" /> Energy
               </h2>
             </div>
             <div className="craig-para">
               <p>
-                We have been formally acknowledged for our service excellence and
-                innovative approach. Together with our scale, experience and
+                We have been formally acknowledged for our service excellence
+                and innovative approach. Together with our scale, experience and
                 know-how, they make your procurement pound go further
               </p>
             </div>

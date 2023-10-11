@@ -28,7 +28,7 @@ const MenuBar = () => {
               <ul>
                 <li>
                   <Link to="/" className="active" onClick={handleMenuItemClick}>
-                    PROCUREMENT
+                    Home
                   </Link>
                 </li>
 
@@ -58,7 +58,7 @@ const MenuBar = () => {
                     className="active"
                     onClick={handleMenuItemClick}
                   >
-                    ECOBUY
+                    SUSTAINABILITY
                   </Link>
                 </li>
 

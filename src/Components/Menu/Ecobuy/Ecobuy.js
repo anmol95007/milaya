@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import EcobuyPage from "../../Styles/EcobuyPage.css";
 import ecobuy_Recycle_01 from "../../Assets/images/ecobuy_Recycle_01.jpg";
 import ecobuy_Recycle_02 from "../../Assets/images/ecobuy_Recycle_02.jpg";
-import ecobuy_Recycle_03 from "../../Assets/images/ecobuy_Recycle_03.jpg";
+import ecobuy_recycle_05 from "../../Assets/images/ecobuy_Recycle_05.webp";
+import ecobuy_Recycle_03 from "../../Assets/images/ecobuy_Recycle_03.webp";
 import ecobuy_Recycle_04 from "../../Assets/images/ecobuy_Recycle_04.jpg";
 
 const Ecobuy = () => {
@@ -25,7 +26,7 @@ const Ecobuy = () => {
         {/* Section one */}
         <div className="ecobuy-wrapper">
           <div className="ecobuy-left-container">
-            <h1>Reduce , Reuse and Recycle </h1>
+            <h1>Reuse, Reduce and Recycle </h1>
             <p>
               At Milaya Energy, we have led the way in revolutionizing smart
               procurement practices within the oil and gas industry. With our
@@ -44,7 +45,7 @@ const Ecobuy = () => {
             </p>
           </div>
           <div className="ecobuy-right-container">
-            <img src={ecobuy_Recycle_01} alt="global image here" />
+            <img src={ecobuy_recycle_05} alt="global image here" />
           </div>
         </div>
 

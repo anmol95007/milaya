@@ -1,8 +1,8 @@
-import React from 'react'
-import Footercss from '../../Styles/Footer.css'
-import ApartmentOutlinedIcon from '@mui/icons-material/ApartmentOutlined';
-import LocalPostOfficeOutlinedIcon from '@mui/icons-material/LocalPostOfficeOutlined';
-import CallIcon from '@mui/icons-material/Call';
+import React from "react";
+import Footercss from "../../Styles/Footer.css";
+import ApartmentOutlinedIcon from "@mui/icons-material/ApartmentOutlined";
+import LocalPostOfficeOutlinedIcon from "@mui/icons-material/LocalPostOfficeOutlined";
+import CallIcon from "@mui/icons-material/Call";
 
 const Footer = () => {
   return (
@@ -42,11 +42,27 @@ const Footer = () => {
           </section>
           <section class="flex-content padding_1x">
             <h3>Address</h3>
-            <p> <ApartmentOutlinedIcon style={{color:'#aa5a29'}}/> 178 street - Al Qusais Industrial Area - Al Qusais Industrial Area 3 - Dubai - United Arab Emirates</p>
-            <p> <CallIcon style={{color:'#aa5a29'}}/> 043213224</p>
-            <p> <LocalPostOfficeOutlinedIcon style={{color:'#aa5a29'}}/> info@milayaenergy.com</p>
+            <p>
+              {" "}
+              <ApartmentOutlinedIcon style={{ color: "#aa5a29" }} /> 178 street
+              - Al Qusais Industrial Area 3 - Dubai - United Arab Emirates
+            </p>
+            <p>
+              {" "}
+              <CallIcon style={{ color: "#aa5a29" }} />
+              +971 43213224
+            </p>
+            <p>
+              {" "}
+              <LocalPostOfficeOutlinedIcon style={{ color: "#aa5a29" }} />{" "}
+              info@milayaenergy.com
+            </p>
             <fieldset class="fixed_flex">
-              <input type="email" name="newsletter" placeholder="Your Email Address" />
+              <input
+                type="email"
+                name="newsletter"
+                placeholder="Your Email Address"
+              />
               <button class="btn btn_2">Subscribe</button>
             </fieldset>
           </section>
@@ -56,17 +72,23 @@ const Footer = () => {
             <p>Copyright ©2023 All rights reserved || Milaya Energy</p>
           </section>
           <section class="flex-content padding_1x">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-dribbble"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-dribbble"></i>
+            </a>
+            <a href="#">
+              <i class="fa fa-linkedin"></i>
+            </a>
           </section>
         </div>
       </footer>
-
     </>
+  );
+};
 
-  )
-}
-
-export default Footer
+export default Footer;
